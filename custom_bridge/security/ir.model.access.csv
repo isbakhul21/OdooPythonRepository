@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+custom_bridge.access_weigh_bridge,access_weigh_bridge,custom_bridge.model_weigh_bridge,,1,1,1,1
+custom_bridge.access_weigh_bridge_line,access_weigh_bridge_line,custom_bridge.model_weigh_bridge_line,,1,1,1,1
+custom_bridge.access_weigh_bridge_report,access_weigh_bridge_report,custom_bridge.model_weigh_bridge_report,,1,1,1,1

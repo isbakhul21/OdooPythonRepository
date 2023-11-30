@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- [Bridge] -->
+        <menuitem id="menu_bridge_root" name="Bridge" web_icon="custom_bridge,static/description/icon.png" sequence="0"/>
+        <menuitem id="menu_bridge_orders_root" name="Orders" parent="menu_bridge_root" sequence="1"/>
+        <menuitem id="menu_weigh_bridge" name="Weigh Bridge" parent="menu_bridge_orders_root" action="action_weigh_bridge" sequence="1"/>
+        <menuitem id="menu_weigh_bridge_report_root" name="Reporting" parent="menu_bridge_root" sequence="2"/>
+        <menuitem id="menu_weigh_bridge_report" name="Weigh Bridge Report" parent="menu_weigh_bridge_report_root" action="action_weigh_bridge_report" sequence="1"/>
+
+    </data>
+</odoo>

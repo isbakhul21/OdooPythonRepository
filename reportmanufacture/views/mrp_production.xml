@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+    <!-- [Purchase Order Form Inherit] -->
+    <record id="mrp_production_form_inherit_generate_report_mo" model="ir.ui.view">
+        <field name="name">mrp.production.form.inherit.generate.report.mo</field>
+        <field name="model">mrp.production</field>
+        <field name="inherit_id" ref="mrp.mrp_production_form_view"/>
+        <field name="arch" type="xml">
+             <xpath expr="//button[@name='action_confirm']" position="after">
+                <button name="generate_mo_report" string="Generate" type="object" class="oe_highlight" data-hotkey="v"/>
+                <button name="action_update_mo" string="Update" type="object" class="oe_highlight" data-hotkey="v"/>
+            </xpath>
+        </field>
+    </record>
+    </data>
+</odoo>

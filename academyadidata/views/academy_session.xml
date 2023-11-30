@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+<record id="course_list_tree" model="ir.ui.view">
+            <field name="name">academy.course.tree</field>
+            <field name="model">academy.course</field>
+            <field name="arch" type="xml">
+                <tree string="Course List">
+                    <field name="name"/>
+                    <field name="level"/>
+                    <field name="description"/>
+                    <field name="create_date" optional="hide"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

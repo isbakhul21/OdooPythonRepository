@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+<!--    menu ini digunakan untuk menu yang berposisi paling kiri-->
+    <menuitem id="menu_personal_info_root"
+              name="Personal Info"
+              web_icon="personal_info,static/description/icon.png"
+              sequence="0" />
+
+    <menuitem id="menu_personal_master"
+              name="Personal Master"
+              parent="menu_personal_info_root"
+              sequence="0" />
+
+
+
+</odoo>

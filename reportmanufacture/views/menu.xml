@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+<!--    menu ini digunakan untuk menu yang berposisi paling kiri-->
+    <menuitem id="menu_report_manufacture_root"
+              name="Report Manufacture"
+              web_icon="reportmanufacture,static/description/icon.png"
+              sequence="0" />
+
+    <menuitem id="menu_report_manufacture_master"
+              name="Report Manufacture"
+              parent="menu_report_manufacture_root"
+              sequence="0" />
+
+
+
+</odoo>
